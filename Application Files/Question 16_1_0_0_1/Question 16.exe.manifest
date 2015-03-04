@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Question 16.exe" version="1.0.0.1" publicKeyToken="1bbae01c730612f6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Question 16" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Question 16.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Question 16.exe" size="32256">
+      <assemblyIdentity name="Question 16" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Uv8igQH8FZFJ2oVgheRGu0AoR8Ml4M0smYw9ozgWKlE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Question 16.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=USER\Acer" issuerKeyHash="65639c036305ee690af989dadc38557dff9a7f8d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xPn0Wq81lTP/ARQ0h/Q9RQ9AT015sOqyac3VFs9RxWg=</DigestValue></Reference></SignedInfo><SignatureValue>nw76GWMCsHjC3pcnCpZydkjTECYx2h/Igf6QAJ1mWzUXnbyIztEEX+oakwRT85NDFtq9g8Pm0WErdf2/PS0Ep8D5OIuAeXBiTGV0g4OMzim5efg8mRcnq1k5ZTVwugRuOFl50z0zHkvq2HEi0E96hAgc6EQzCGxPcSul7kGnmjQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vkzQXlVXLNSdNToTFG+b8+kYFu+IGJRNd4+nB9LAlyXVYwGa+wMNRE4g54wu1O2Opmn0YQxBNclwSpQMk6yPg2/xF1mT4JHylW/wq0pD25tAxK8loUJwSyLYaKKFLv0AjYtaJMvD9wXb8sQfz6+Vr4GmxYIRVO22UKlxTu/TzCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68c551cf16d5cd69b2eab0794d4f400f453df487341401ff339535af5af4f9c4" Description="" Url=""><as:assemblyIdentity name="Question 16.exe" version="1.0.0.1" publicKeyToken="1bbae01c730612f6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=USER\Acer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YnqDvw8iFlAPAspvdn/XS+nWg1dCVY6ffRWdBAjNoEY=</DigestValue></Reference></SignedInfo><SignatureValue>j7B3iW6naFPht0G31qvxVSta7CZqAAeoTBlOEnB1XDtiIJMmBMkcZlUBfaSKZZbCYcnFx0Mt6htF6EDog6dYouGyJ8TvUgpG4ujcusX4NNHGRfH7+0hr1kb0/OyDJnmW8wtmV/owxqZV7DNWEVAdw+3icZnYYvFmNVN5n3K0jC4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vkzQXlVXLNSdNToTFG+b8+kYFu+IGJRNd4+nB9LAlyXVYwGa+wMNRE4g54wu1O2Opmn0YQxBNclwSpQMk6yPg2/xF1mT4JHylW/wq0pD25tAxK8loUJwSyLYaKKFLv0AjYtaJMvD9wXb8sQfz6+Vr4GmxYIRVO22UKlxTu/TzCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQJlhe//5j16BLAXxvdC1+mTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIAVQBTAEUAUgBcAEEAYwBlAHIwHhcNMTUwMzA0MTM0OTU4WhcNMTYwMzAzMTk0OTU4WjAdMRswGQYDVQQDHhIAVQBTAEUAUgBcAEEAYwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL5M0F5VVyzUnTU6ExRvm/PpGBbviBiUTXePpwfSwJcl1WMBmvsDDUROIOeMLtTtjqZp9GEMQTXJcEqUDJOsj4Nv8RdZk+CR8pVv8KtKQ9ubQMSvJaFCcEsi2GiihS79AI2LWiTLw/cF2/LEH8+vla+BpsWCEVTttlCpcU7v08wlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGiZOwvDvNpCGRe2PnTYOwlymhJHR5vwKvYG6VMrOTjTGO1JdPBmz74gEKGp6bqXdJ8l0/aoP622s3wW5umqEPugs31lPI4yxwpsy5tbW2lahorhnZKZPSOsZa5/hCbDNAj44f/+F2dMjmxUxgtqJCGGb7qjz0Ycqy3XX8us92K8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
